@@ -1,0 +1,1 @@
+This algorithm cannot build a graph with the given sequence.
