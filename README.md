@@ -1,4 +1,4 @@
-# Projects-of-BOUN-IE
+# My Projects
 I have compiled a comprehensive collection of projects completed throughout my academic journey, demonstrating my diverse skillset and dedication to learning.
 
 This repository showcases my expertise in:
