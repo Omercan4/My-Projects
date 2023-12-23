@@ -1,0 +1,45 @@
+PROJECT,      "IE306HW4","Omercan Misirlioglu",,Yes,No,Yes,No,No,No,No,No,No,No,No;
+
+ATTRIBUTES:   PaymentTime,DATATYPE(Real):
+              StudentType,DATATYPE(Real):
+              EnterServiceQue,DATATYPE(Real):
+              ServiceTime,DATATYPE(Real):
+              PaymentQueArr,DATATYPE(Real);
+
+SCHEDULES:    Schedule 1,TYPE(Capacity),FORMAT(Duration),FACTOR(1.0),UNITS(Minutes),,,DATA(2,165),DATA(1,15);
+
+STORAGES:     1,Storage 1:
+              2,Storage 2:
+              3,Storage 3:
+              4,Storage 4;
+
+VARIABLES:    AllCount,CLEAR(System),CATEGORY("None-None"),DATATYPE(Real);
+
+QUEUES:       PaymentQue,FirstInFirstOut,,AUTOSTATS(Yes,,):
+              ServiceQue,FirstInFirstOut,,AUTOSTATS(Yes,,);
+
+RESOURCES:    Server,Schedule(Schedule 1,Ignore),,Stationary,COST(0.0,0.0,0.0),,AUTOSTATS(Yes,,):
+              Cashier,Capacity(1),,Stationary,COST(0.0,0.0,0.0),,AUTOSTATS(Yes,,):
+              self_service,Capacity(1),,Stationary,COST(0.0,0.0,0.0),,AUTOSTATS(Yes,,);
+
+COUNTERS:     1,Number Of Engineering Students Who Forget Their Drink,,Replicate:
+              2,Number Of Social Sciences Students Who Forget Their Drink,,Replicate;
+
+TALLIES:      Time Spent in Service Queue;
+
+DSTATS:       1,NSTO(1),Utilization of food servers by eng. students:
+              2,NSTO(2),Utilization of food servers by Soc. Sci. Students:
+              3,NSTO(3),Utilization of cashier by eng. students:
+              4,NSTO(4),Utilization of cashier by Soc. Sci. Students:
+              5,NQ(ServiceQue),Average Length of Food Service Queue:
+              6,NQ(PaymentQue),Average Length of Payment to Cashier Queue;
+
+REPLICATE,    4,0.0,480,Yes,Yes,0,,,24.0,Minutes,No,No,,DATETIME("Dec 18, 2022 16:50:12"),No,No;
+
+EXPRESSIONS:  1,ServiceTime1,DATATYPE(Native),UNIFORM(2,7):
+              2,ServiceTime2,DATATYPE(Native),EXPONENTIAL(5):
+              3,PaymentTime1,DATATYPE(Native),UNIFORM(1,2):
+              4,PaymentTime2,DATATYPE(Native),UNIFORM(2,6):
+              5,PaymentTime3,DATATYPE(Native),UNIFORM(1,1):
+              6,timeout1,DATATYPE(Native),15;
+
