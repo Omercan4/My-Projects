@@ -7,3 +7,4 @@
 
 **Summary:** Showcasing proficiency in analytical problem-solving and engineering principles, the project applies four diverse methods to estimate AGV requirements. We effectively demonstrate critical evaluation skills by comparing these methods, highlighting the advantages and limitations of each approach. This work not only exhibits my talent in engineering analysis but also underscores my ability to navigate complex, real-world manufacturing challenges.
 
+Additional Contributors: Tevfik Buğra Türker, Hüseyin Emre Bacak
