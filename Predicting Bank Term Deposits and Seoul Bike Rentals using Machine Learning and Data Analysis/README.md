@@ -6,3 +6,4 @@
 
 **Summary:** This project highlights my expertise in data mining and statistical analysis using **R**. By analyzing the "bank" dataset, I demonstrated proficiency in modeling using random forest and gradient boosting techniques, emphasizing parameter tuning for optimal model performance. My work showcases my ability to apply advanced data mining methods effectively, reflecting my talents in predictive analytics and R programming.
 
+Additional Contributors: Tevfik Buğra Türker
