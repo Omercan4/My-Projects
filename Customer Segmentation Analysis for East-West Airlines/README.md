@@ -7,3 +7,5 @@
 **Programming Languages Used:** R is the primary programming language used in this project, leveraging its powerful data manipulation and statistical analysis capabilities.
 
 **Summary:** Demonstrating advanced skills in R programming and data mining, this project involved intricate analysis of airline customer data. We used **hierarchical clustering** and **K-means algorithms** to identify distinct customer segments, labeled as "Irregular Customers" and "Premium Customers." The project showcases my ability to apply complex data mining techniques effectively, providing insights into customer behavior and segmentation in the airline industry.
+
+Additional Contributors: Tevfik Buğra Türker
