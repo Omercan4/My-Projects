@@ -1,7 +1,7 @@
 # Traveling Salesman Problem Solved w/Gurobi and Pulp
 
 
-**Project Aim:** The project's goal is to solve the **Traveling Salesperson Problem** (TSP) for 15 and 81 cities, using data from the TR81 dataset and employing various optimization techniques.
+**Project Aim:** The project's goal is to solve the **Traveling Salesperson Problem** (TSP) for 15 and 81 cities of Türkiye, using data from the TR81 dataset and employing various optimization techniques.
 
 **Definition:** The project involves selecting a subset of cities, formulating the TSP, and applying different optimization strategies, such as the **Miller-Tucker-Zemlin** constraints and **Gurobi** package, to find the shortest possible route.
 
