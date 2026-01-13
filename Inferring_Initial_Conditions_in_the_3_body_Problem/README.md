@@ -1,7 +1,7 @@
 
 # Inferring Initial Conditions in the Three Body Problem
 
-**Project Aim:** The project aims to infer the initial positions and velocities of a three-body gravitational system based on observations of its trajectories at a later time. Because these systems are chaotic and sensitive to minute changes in initial conditions, the researchers utilize Simulation-Based Inference (SBI) to map observed trajectories to a posterior distribution of the starting parameters
+**Project Aim:** The project aims to infer the initial positions and velocities of a three-body gravitational system based on observations of its trajectories at a later time. Because these systems are chaotic and sensitive to minute changes in initial conditions, Simulation-Based Inference (SBI) to map observed trajectories to a posterior distribution of the starting parameters was utilized.
 
 **Definition:** The three-body problem is a classic physics challenge involving the prediction of the motion of three point masses under their mutual gravitational attraction; while general analytical solutions do not exist, numerical methods can approximate their complex and often chaotic movements
 
