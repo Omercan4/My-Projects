@@ -13,7 +13,7 @@ learning, simulation-based inference, generative AI, and operations research.
 
 ---
 
-## ⭐ Featured projects
+## Featured projects
 
 | Project | Area | Tools |
 |---|---|---|
@@ -28,7 +28,7 @@ learning, simulation-based inference, generative AI, and operations research.
 
 ---
 
-## 🗂️ Repository structure
+## Repository structure
 
 - **[Master Projects](Master%20Projects)** — M.Sc. Data Science: advanced statistical modeling,
   Bayesian methods, simulation-based inference, ML.
@@ -39,7 +39,7 @@ Each project folder contains its own README and the report/code/data for that wo
 
 ---
 
-## 🛠️ Skills reflected here
+## Skills reflected here
 
 **Languages:** Python, R, SQL, C/C++ ·
 **ML & Statistics:** regression, classification, neural networks, Bayesian inference (Stan/brms),
