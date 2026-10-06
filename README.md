@@ -17,6 +17,7 @@ learning, simulation-based inference, generative AI, and operations research.
 
 | Project | Area | Tools |
 |---|---|---|
+| [German Energy Q&A Agent: LLM Tool Calling + RAG over Bundestag Papers (LangGraph, MLflow, Docker, Azure)](https://github.com/Omercan4/energiewende-agent) *(work in progress, separate repo)* | Answers questions on German energy data: an LLM agent calls live data tools (SMARD prices and generation, Open-Meteo weather) and searches 99 Bundestag papers (RAG); evaluated with 30 questions in MLflow; Docker, CI and a working deployment on Azure | Python, LangGraph, LlamaIndex, Chroma, FastAPI, MLflow, Docker, GitHub Actions, Azure |
 | [Bayesian Analysis of the World Happiness Report](Master%20Projects/Bayesian%20Analysis%20of%20World%20Happiness%20Report) | Bayesian hierarchical modeling, time-series errors (ARMA) | R, `brms`, Stan |
 | [Inferring Initial Conditions in the 3-Body Problem](Master%20Projects/Inferring_Initial_Conditions_in_the_3_body_Problem) | Simulation-based inference on a chaotic system | Python, BayesFlow, RK4, LSTM |
 | [Spotify Recommendation Algorithm Analysis](Master%20Projects/Spotify%20Recommendation%20Algorithm%20Analysis) | Sensitivity study of a recommender (factorial design) | Cosine similarity, ANOVA, t-tests |
@@ -34,6 +35,9 @@ learning, simulation-based inference, generative AI, and operations research.
   Bayesian methods, simulation-based inference, ML.
 - **[Bachelor Projects](Bachelor%20Projects)** — B.Sc. Industrial Engineering: optimization,
   simulation, operations research, forecasting, data mining, and the graduation project.
+
+- **[German Energy Q&A Agent: LLM Tool Calling + RAG over Bundestag Papers (LangGraph, MLflow, Docker, Azure)](https://github.com/Omercan4/energiewende-agent)**: personal project in its own repository,
+  work in progress (a working version is already deployed).
 
 Each project folder contains its own README and the report/code/data for that work.
 
