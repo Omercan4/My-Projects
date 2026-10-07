@@ -1,4 +1,4 @@
-# Projects — Ömercan Misirlioglu
+# Projects: Ömercan Misirlioglu
 
 **Data Scientist** (M.Sc. Data Science, TU Dortmund) with an **industrial-engineering**
 foundation (B.Sc., Boğaziçi) and hands-on **applied-AI / GenAI** experience. This repository
