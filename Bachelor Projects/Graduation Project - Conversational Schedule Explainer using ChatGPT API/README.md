@@ -11,4 +11,10 @@ exploring how it answers complex scheduling queries and facilitates user interac
 an intuitive interface. It emphasizes the importance of this ergonomic design for a better user
 experience in workforce management.
 
+**How it works:** Gurobi optimization models create the employee schedules. A Streamlit chat interface takes questions in
+natural language, and OpenAI function calling (`gpt-3.5-turbo-0613`) maps each question to one of the Python tools
+(`get_shift_schedule`, `find_employees_on_same_shift`, `find_employees_with_same_skillset`, `find_possible_swaps`,
+`check_shift_compatibility`, `reschedule_shift`). The tool result is then explained back to the user in plain language.
+This is agent-style LLM tool use from 2023/24, shortly after OpenAI introduced function calling (June 2023).
+
 Contributors: Murat Tutar, Bora Polater
