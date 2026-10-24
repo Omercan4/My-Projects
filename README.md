@@ -18,7 +18,8 @@ learning, simulation-based inference, generative AI, and operations research.
 | Project | Area | Tools |
 |---|---|---|
 | **AI-Based Patent Infringement Detection Using Knowledge Graphs and Multimodal Language Models** *(master's thesis with Wilhelm Böllhoff, in progress until Dec 2026; company project, code not public)* | An LLM builds knowledge graphs from patent claims and product descriptions; graph-based retrieval (compared with text embeddings) finds the documents that may infringe a claim, and an LLM judge decides element by element. Evaluated on a synthetic benchmark of 49 claims and 441 documents with recall-based metrics and statistical tests, comparing judge models from three LLM families | Python, knowledge graphs, GraphRAG, GPT, Claude, Gemini, BGE-M3, SciPy |
-| [German Energy Q&A Agent: LLM Tool Calling + RAG over Bundestag Papers (LangGraph, MLflow, Docker, Azure)](https://github.com/Omercan4/energiewende-agent) *(work in progress, separate repo)* | Answers questions on German energy data: an LLM agent calls live data tools (SMARD prices and generation, Open-Meteo weather) and searches 99 Bundestag papers (RAG); evaluated with 30 questions in MLflow; Docker, CI and a working deployment on Azure | Python, LangGraph, LlamaIndex, Chroma, FastAPI, MLflow, Docker, GitHub Actions, Azure |
+| [German Energy Q&A Agent: LLM Tool Calling + RAG over Bundestag Papers (LangGraph, MLflow, Docker, Azure)](https://github.com/Omercan4/energiewende-agent) *(v0.2, separate repo)* | Answers questions on German energy data: an LLM agent chooses between live data tools (SMARD, Open-Meteo), a price forecast tool and RAG over 99 Bundestag papers (filters by party and paper type); evaluated with 35 questions and an LLM judge in MLflow (numbers 100% correct, 94% of answers fully correct); Docker, CI and a deployment on Azure | Python, LangGraph, LlamaIndex, Chroma, FastAPI, MLflow, Docker, GitHub Actions, Azure |
+| [Energy Price Forecast: day-ahead electricity prices for Germany (LightGBM, MLflow, GitHub Actions)](https://github.com/Omercan4/energy-price-forecast) *(personal project, separate repo, [live page](https://omercan4.github.io/energy-price-forecast/))* | Forecasts tomorrow's 24 hourly prices with a conformal 80% interval. 12-month rolling backtest: 47.6% lower error than "same hour last week" (MAE 19.6 vs 37.4 EUR/MWh), interval coverage 79%. Anomaly detection, SHAP, daily monitoring (error and input drift) by a scheduled GitHub Action, FastAPI | Python, LightGBM, pandas, MLflow, SHAP, FastAPI, GitHub Actions and Pages |
 | [Conversational Shift-Scheduling Assistant: LLM Tool Calling + Optimization](Bachelor%20Projects/Graduation%20Project%20-%20Conversational%20Schedule%20Explainer%20using%20ChatGPT%20API) *(graduation project, 2023/24)* | LLM assistant with a Streamlit chat interface: OpenAI function calling routes natural-language questions to Python tools for schedule queries, shift swaps, feasibility checks and rescheduling, on top of Gurobi optimization models. Agent-style tool use in 2023/24, shortly after OpenAI introduced function calling (June 2023) | Python, OpenAI API (function calling, GPT-3.5), Gurobi, Streamlit |
 | [Bayesian Analysis of the World Happiness Report](Master%20Projects/Bayesian%20Analysis%20of%20World%20Happiness%20Report) | Bayesian hierarchical modeling, time-series errors (ARMA) | R, `brms`, Stan |
 | [Inferring Initial Conditions in the 3-Body Problem](Master%20Projects/Inferring_Initial_Conditions_in_the_3_body_Problem) | Simulation-based inference on a chaotic system | Python, BayesFlow, RK4, LSTM |
@@ -37,8 +38,7 @@ learning, simulation-based inference, generative AI, and operations research.
 - **[Bachelor Projects](Bachelor%20Projects)** — B.Sc. Industrial Engineering: optimization,
   simulation, operations research, forecasting, data mining, and the graduation project.
 
-- **[German Energy Q&A Agent: LLM Tool Calling + RAG over Bundestag Papers (LangGraph, MLflow, Docker, Azure)](https://github.com/Omercan4/energiewende-agent)**: personal project in its own repository,
-  work in progress (a working version is already deployed).
+- **[German Energy Q&A Agent](https://github.com/Omercan4/energiewende-agent)** and **[Energy Price Forecast](https://github.com/Omercan4/energy-price-forecast)**: personal projects in their own repositories. The agent can call the forecast as a tool.
 
 - **Master's thesis** (in progress): confidential company project, so it is described above but its code and data are not in this repository.
 
@@ -50,9 +50,9 @@ Each project folder contains its own README and the report/code/data for that wo
 
 **Languages:** Python, R, SQL, C/C++ ·
 **ML & Statistics:** regression, classification (random forest, gradient boosting), clustering, neural networks,
-Bayesian inference (Stan/brms), simulation-based inference, time series & forecasting (ARIMA), experimental design ·
+Bayesian inference (Stan/brms), simulation-based inference, time series & forecasting (ARIMA, LightGBM quantile models, prediction intervals, backtesting), anomaly detection, experimental design ·
 **Generative AI:** LLM APIs (OpenAI, Claude, Gemini), function/tool calling (since 2023), LLM agents (LangGraph),
 RAG & GraphRAG, knowledge graphs (Neo4j, NetworkX), multimodal models, LlamaIndex, Chroma, LLM evaluation ·
 **Operations Research:** optimization (Gurobi), discrete-event simulation (ARENA/Python), scheduling ·
-**Engineering & deployment (first hands-on experience):** FastAPI, Docker, GitHub Actions (CI), MLflow, Azure ·
+**Engineering & deployment (first hands-on experience):** FastAPI, Docker, GitHub Actions (CI, scheduled jobs, secret scanning), GitHub Pages, MLflow, Azure ·
 **Tools:** Git, Streamlit, LaTeX, Excel · Databricks (first experience) · Power BI (currently learning)
