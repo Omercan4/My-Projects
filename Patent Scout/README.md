@@ -17,6 +17,7 @@ flowchart LR
 - I built the whole tool from the ground up: the backend and the web front end, in parallel. I started with the work steps of the engineers and learned the patent field first, because I had no background in it.
 - I extract knowledge graphs from patent claims and products, store them in a database that I designed and manage, and run the search on that database.
 - I set up the Git structure for the team repository and advise the team on how to use Git, so that several people can work on the code without breaking each other's work.
+- I work on the prompts as a part of the product: I write, test and improve them, and I built a prompt editor into the tool. Engineers can open a prompt, change it and save it as a new version. Nothing is overwritten, so versions can be compared and a bad change can be undone.
 - I change the tool with the engineers' feedback. The engineer always has the last word, and a correction is saved next to the model's answer.
 - I tested it like software, with automated tests, an offline end-to-end test and documentation, so others can install and maintain it.
 
@@ -24,4 +25,4 @@ flowchart LR
 
 The research question behind it is my master's thesis (TU Dortmund with Wilhelm Böllhoff, submission 1 December 2026): AI-Based Patent Infringement Detection Using Knowledge Graphs and Multimodal Language Models.
 
-**Tools:** Python, knowledge graphs, GraphRAG, LLM APIs (GPT, Claude, Gemini), a database, Git
+**Tools:** Python, knowledge graphs, GraphRAG, LLM APIs (GPT, Claude, Gemini), a database, prompt engineering, Git
