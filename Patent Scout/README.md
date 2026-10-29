@@ -1,6 +1,6 @@
 # Patent Scout
 
-An AI tool for the patent engineers at Wilhelm Böllhoff. It automates a large part of the search for products that may infringe a patent, and more use cases are planned. The code is private because it belongs to my employer, so this folder only describes it.
+An AI tool for the patent engineers at Wilhelm Böllhoff. It automates a large part of the search for products that may infringe a patent, and more use cases are planned. The code is private, so this folder only describes it.
 
 Before, the engineers read the claims, searched for products and compared everything by hand in several tools. Now the engineer enters a patent number and works with the result.
 
