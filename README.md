@@ -34,17 +34,19 @@ learning, simulation-based inference, generative AI, and operations research.
 
 ## Repository structure
 
-- **[Master Projects](Master%20Projects)** — M.Sc. Data Science: advanced statistical modeling,
-  Bayesian methods, simulation-based inference, ML.
-- **[Bachelor Projects](Bachelor%20Projects)** — B.Sc. Industrial Engineering: optimization,
-  simulation, operations research, forecasting, data mining, and the graduation project.
+**Recent projects** (each folder has a short description and a link to the code)
+- **[Patent Scout](Patent%20Scout)**: AI tool for patent engineers at Wilhelm Böllhoff (company tool, code private).
+- **[Energiewende Agent](Energiewende%20Agent)**: LLM agent with live data tools and RAG over Bundestag papers.
+- **[Energy Price Forecast](Energy%20Price%20Forecast)**: day-ahead electricity price forecast with prediction intervals.
+- **[Credit-Risk Scorecard](Credit-Risk%20Scorecard)**: loan scorecard built like a bank would, with monitoring.
 
-- **[German Energy Q&A Agent](https://github.com/Omercan4/energiewende-agent)** and **[Energy Price Forecast](https://github.com/Omercan4/energy-price-forecast)**: personal projects in their own repositories. The agent can call the forecast as a tool.
-- **[Credit-Risk Scorecard](https://github.com/Omercan4/credit-risk-scorecard)**: personal project in its own repository.
+**Studies**
+- **[Master Projects](Master%20Projects)**: M.Sc. Data Science, advanced statistical modeling, Bayesian methods, simulation-based inference, ML.
+- **[Bachelor Projects](Bachelor%20Projects)**: B.Sc. Industrial Engineering, optimization, simulation, operations research, forecasting, data mining, and the graduation project.
 
-- **Master's thesis** (in progress): confidential company project, so it is described above but its code and data are not in this repository.
+**Master's thesis** (in progress): confidential company project, so it is described above but its code and data are not in this repository.
 
-Each project folder contains its own README and the report/code/data for that work.
+Each project folder contains its own README and the report, code or data for that work.
 
 ---
 
